@@ -8,8 +8,8 @@
 
 .text-overlay {
     position: absolute;
-    bottom: 12%;
-    left: 45.5%;
+    bottom: 30px;
+    left: 50%;
 }
 
 .text-overlay p {
@@ -42,8 +42,8 @@ form {
 .sign-in {
     position: relative;
     background-color: rgb(236, 236, 236);
-    height: 40%;
-    width: 40%;
+    height: 380px;
+    width: 550px;
     display: grid;
     align-items: center;
     justify-content: center;
@@ -57,7 +57,7 @@ input{
 .submit-btn {
     display: block;
     margin: 5px auto;
-    width: 32%;
+    width: 90px;
     height: 35px;
     background-color: grey;
     text-align: center;
