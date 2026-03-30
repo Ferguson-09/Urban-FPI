@@ -1,13 +1,15 @@
 'use strict';
 
 const openPage = document.querySelector('.open');
-const overlay = document.querySelector('.overlay')
-const close = document.querySelector('.x')
+const overlay = document.querySelector('.overlay');
+const close = document.querySelector('.x');
+const input = document.querySelectorAll('input');
 
 openPage.addEventListener('click', () => {
     overlay.style.display = 'grid'
-})
+});
 
 close.addEventListener('click', () => {
-    overlay.style.display = 'none'
-})
+    overlay.style.display = 'none';
+    input.forEach(input => input.value = '');
+});
