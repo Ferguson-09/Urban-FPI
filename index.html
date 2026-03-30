@@ -8,13 +8,54 @@
         <meta name="keywords" content="Fashion, streetwear, style, archive">
         <link rel="icon" href="./assets/media/31fab22181fa44056ad5fc36ae65dafc.jpg?v=2" type="image/x-icon">
         <script src="./assets/scripts/app.js" type="module"></script>
-        <link rel="stylesheet" href="./assets/styles/style.css">
+        <link rel="stylesheet" href="./assets/styles/first.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
         <title>Urban FPI</title>
     </head>
     <body>
         <main>
             <div class="container">
+                <div class="background">
+                    <video class="video" autoplay muted loop>
+                    <source src="https://cdn.shopify.com/videos/c/o/v/e970899ef2b84133986a0ce69bc8a1d9.mp4" type="video/mp4">
+                    </video>
+                    <div class="text-overlay">
+                        <a class="open"><p>Open Journal</p></a>
+                    </div>
+                    <div class="overlay">
+                        <div class="sign-in">
+                            <button class="x">
+                                <i class="fa-solid fa-x"></i>
+                            </button>
+                            <form> 
+                                <div class="field">
+                                    <label for="email">Email:</label>
+                                    <input type="email" name="email" id="email" required>
+                                </div>
 
+                                <div class="field">
+                                <label for="name">Name: </label>
+                                <input type="text" name="name" id="name" required>
+                                </div>
+
+                                <div class="field">
+                                <label for="number">Phone: </label>
+                                <input type="number" name="number" id="number">
+                                </div>
+
+                                <div class="field">
+                                <label for="password">Password: </label>
+                                <input type="password" name="password" id="password" required>
+                                </div>
+
+                                <button class="submit-btn">Sign In</button>
+                                                                
+                                <p class="without">Already have an account? <a href="#">Sign in</a></p>
+                            </form>
+                            <a href="#" class="without">Shop without signing in</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
     </body>
