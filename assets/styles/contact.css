@@ -14,7 +14,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 60px;
+    padding: 15px 60px;
     background: rgba(0, 0, 0, 0.5);
 }
 
@@ -22,15 +22,25 @@ header {
     font-size: 26px;
     font-weight: bold;
     letter-spacing: 2px;
-    color: #fff;
+    color: white;
+}
+.header-image{
+    flex: 1;
+    text-align: center;
+
 }
 
 .header-image img {
-    height: 40px;
+    height: 60px;
+}
+
+nav {
+    display: flex;
+    gap: 25px;
 }
 
 nav a {
-    color: #fff;
+    color: white;
     margin-left: 25px;
     font-size: 16px;
 }
