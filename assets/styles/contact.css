@@ -1,7 +1,7 @@
 @import "./reset.css";
 @import "./style.css";
 
-body {
+.container {
     font-family: Arial, Helvetica, sans-serif;
     background-image: url("../media/pp.avif");
     background-size: cover;
@@ -10,23 +10,23 @@ body {
     color: #131111;
 }
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 60px;
+    margin: 5px 20px 20px;
     background: white;
 }
 
 .header-logo {
-    height: 80px;
-    width: auto;
+    height: 100px;
 }
 
 .logo {
-    font-size: 26px;
-    font-weight: bold;
-    letter-spacing: 2px;
     color: rgba(0,0,0,0.5);
 }
 
