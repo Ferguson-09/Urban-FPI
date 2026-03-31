@@ -51,12 +51,14 @@ nav {
 
 nav a {
     color: white;
-    margin-left: 25px;
-    font-size: 16px;
+    
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 nav a:hover {
-    text-decoration: underline;
+    color: #ccc;
 }
 
 .contact-section {
