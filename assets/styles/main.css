@@ -12,6 +12,19 @@
     position: relative;
 }
 
+.contact-page {
+    text-decoration: none;
+    color: rgba(0,0,0,0.5);
+}
+
+.contact-page:hover {
+    color: #ccc;
+}
+
+.contact-page:hover {
+    cursor: pointer;
+}
+
 .head-logo{
     height: 100px;
 }
