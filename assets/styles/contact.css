@@ -3,7 +3,10 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(253, 248, 248);
+    background-image: url("../media/pp.avif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     color: #131111;
 }
 
@@ -19,6 +22,7 @@ header {
     font-size: 26px;
     font-weight: bold;
     letter-spacing: 2px;
+    color: #fff;
 }
 
 nav a {
@@ -43,6 +47,8 @@ nav a:hover {
 
 .contact-info {
     flex: 1;
+    margin-top: 20px;
+    width: 40%;
 }
 
 .contact-info h1{
@@ -99,6 +105,16 @@ section h2 {
     margin-top: 40px;
 }
 
+section iframe {
+    display: block;
+    margin: 30px auto;
+    max-width: 90%;
+}
+
+.social-media {
+    text-align: center;
+    margin-top: 40px;
+}
 .social-media a {
     color: #1b1919;
     margin: 10px 15px;
@@ -115,7 +131,8 @@ section h2 {
 
 footer {
     margin-top: 60px;
-    background: black;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
     text-align: center;
     padding: 20px;
     font-size: 14px;
