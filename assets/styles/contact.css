@@ -25,6 +25,10 @@ header {
     color: #fff;
 }
 
+.header-image img {
+    height: 40px;
+}
+
 nav a {
     color: #fff;
     margin-left: 25px;
@@ -111,24 +115,6 @@ section iframe {
     max-width: 90%;
 }
 
-.social-media {
-    text-align: center;
-    margin-top: 40px;
-}
-.social-media a {
-    color: #1b1919;
-    margin: 10px 15px;
-    font-size: 18px;
-}
-
-.social-media i {
-    margin-right: 6px;
-}
-
-.social-media a:hover {
-    text-decoration: underline;
-}
-
 footer {
     margin-top: 60px;
     background: rgba(0, 0, 0, 0.5);
@@ -136,4 +122,19 @@ footer {
     text-align: center;
     padding: 20px;
     font-size: 14px;
+}
+
+footer hr {
+    border: 1px solid gray;
+    margin-bottom: 10px;
+}
+
+.footer-icons a {
+    color: white;
+    font-size: 20px;
+    margin: 0 12px;
+}
+
+.footer-icons a:hover {
+    color: #ccc;
 }
