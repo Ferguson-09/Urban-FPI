@@ -1,2 +1,61 @@
 @import './reset.css';
 
+.head {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 20px 20px;
+    color: rgba(0,0,0,0.5);
+    align-items: center;
+}
+
+.head-logo{
+    height: 100px;
+}
+
+.img-1 {
+    display: flex;
+}
+
+#first, #second{
+    width: 50%;
+    height: 100vh;
+}
+
+.first-row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.selection {
+    height: 40svh;
+    margin: 50px;
+}
+
+.one {
+    display: grid;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+label:hover {
+    cursor: pointer;
+}
+
+.add {
+    width: 100px;
+    height: 30px;
+}
+
+.body-1{
+    margin-bottom: 10px;
+}
+
+.second-row{
+    display: flex;
+    justify-content: space-around;
+}
+
