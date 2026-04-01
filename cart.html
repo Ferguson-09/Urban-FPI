@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Ferguson Zibiri">
+        <meta name="description" content="My first web page">
+        <meta name="keywords" content="Fashion, streetwear, style, archive">
+        <link rel="icon" href="./assets/media/31fab22181fa44056ad5fc36ae65dafc.jpg?v=2" type="image/x-icon">
+        <script src="./assets/scripts/cart.js" type="module"></script>
+        <link rel="stylesheet" href="./assets/styles/cart.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    </head>
+    <body>
+        <header>
+            <h1>Nova Clothing</h1>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#products">Shop</a>
+                <a href="#contact">Contact</a>
+                <a href="#" onclick="openLogin()">Login</a>
+            </nav>
+        </header>
+        <section style="padding: 40px; text-align: center;">
+            <h2>Fresh Fits. Clean Style.</h2>
+            <p>Upgrade your wardrobe today.</p>
+        </section>
+        <section id="products" class="products">
+            <div class="product">
+                <img src="images/shirt.jpg" alt="">
+                <h3>T-Shirt</h3>
+                <p>$25</p>
+                <button onclick="addToCart('T-Shirt', 25)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/hoodie.jpg" alt="">
+                <h3>Hoodie</h3>
+                <p>$50</p>
+                <button onclick="addToCart('Hoodie', 50)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/jacket.jpg" alt="">
+                <h3>Jacket</h3>
+                <p>$80</p>
+                <button onclick="addToCart('Jacket', 80)">Add to Cart</button>
+            </div>
+        </section>
+        <section>
+            <h2 style="padding-left:20px;">Your Cart</h2>
+            <div id="cart"></div>
+        </section>
+        <section id="contact" style="padding: 40px;">
+            <h2>Contact Us</h2>
+            <form onsubmit="return validateForm()">
+                <input type="text" id="name" placeholder="Name">
+                <input type="email" id="email" placeholder="Email">
+                <textarea id="message" placeholder="Message"></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+        <div id="loginModal" class="modal">
+            <div class="modal-content">
+                <h2>Login</h2>
+                <input type="text" placeholder="Username">
+                <input type="password" placeholder="Password">
+                <button onclick="login()">Login</button>
+                <button onclick="closeLogin()">Close</button>
+            </div>
+        </div>
+        <footer>
+            <p>© 2026 Nova Clothing</p>
+        </footer>
+
+        <script src="js/cart.js"></script>
+    </body>
+</html>
+
+
+
+<!-- PRODUCTS -->
+
+
+<!-- CART -->
+
+
+<!-- CONTACT -->
+
+
+<!-- LOGIN MODAL -->
+
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 Nova Clothing</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
