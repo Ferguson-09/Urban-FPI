@@ -235,4 +235,10 @@ footer hr {
     .fa-cart-arrow-down {
         font-size: 20px;
     }
+    .selected-img{
+        height: 100px;
+    }
+    .order-txt {
+        font-size: 12px;
+    }
 }
