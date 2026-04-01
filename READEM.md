@@ -56,7 +56,7 @@ The contact page includes an embedded map pointing to **Winnipeg, Canada**.
 - Improve mobile responsiveness  
 - Enhance animations and transitions  
 
-## 👩‍💻 Author
+## 👩‍💻 Authors
 
 **Frugson**
 **Prabhjot**
