@@ -13,6 +13,14 @@ const blackHoodie = document.getElementById('black-hoodie');
 const blueHoodie = document.getElementById('blue-hoodie');
 const blackSweats = document.getElementById('black-sweats');
 const stoneWash = document.getElementById('stone-jeans');
+const blackQz = document.getElementById('black-qz');
+const beigeHoodie = document.getElementById('beige-hoodie');
+const beigePants = document.getElementById('beige-pants');
+const beigeCargo = document.getElementById('cargopants');
+const plaidShirt = document.getElementById('plaid-shirt');
+const whiteSweater = document.getElementById('white-sweater');
+const greenCargo = document.getElementById('green-cargo');
+const blackDress = document.getElementById('black-trousers');
 
 
 openCart.addEventListener('click', () => {
@@ -160,3 +168,139 @@ stoneWash.addEventListener('click', () => {
     </div>`
     cartBody.appendChild(cartItem)
 });
+
+blackQz.addEventListener('click', () => {
+    const cartItem = document.createElement('div');
+    cartItem.classList.add('carted');
+
+    const blackQzQuantity = document.querySelector('#quantity-9').value
+
+    cartItem.innerHTML = `
+    <img src="./assets/media/zipped-black-sweatshirt-01.jpg" class="selected-img">
+    <div class="order">
+        <p class="order-txt">URBAN FPI BLACK QUARTER-ZIP</p>
+        <p class="order-txt">Quantity: ${blackQzQuantity}</p>
+        <p class="order-txt">Price: $${(blackQzQuantity * 50.75).toFixed(2)}</p>
+    </div>`
+    cartBody.appendChild(cartItem)
+});
+
+beigeHoodie.addEventListener('click', () => {
+    const cartItem = document.createElement('div');
+    cartItem.classList.add('carted');
+
+    const beigeHoodieQuantity = document.querySelector('#quantity-10').value
+
+    cartItem.innerHTML = `
+    <img src="./assets/media/hoodie-02.jpg" class="selected-img">
+    <div class="order">
+        <p class="order-txt">URBAN FPI BEIGE HOODIE</p>
+        <p class="order-txt">Quantity: ${beigeHoodieQuantity}</p>
+        <p class="order-txt">Price: $${(beigeHoodieQuantity * 75.55).toFixed(2)}</p>
+    </div>`
+    cartBody.appendChild(cartItem)
+});
+
+
+beigePants.addEventListener('click', () => {
+    const cartItem = document.createElement('div');
+    cartItem.classList.add('carted');
+
+    const beigePantsQuantity = document.querySelector('#quantity-11').value
+
+    cartItem.innerHTML = `
+    <img src="./assets/media/beige-pants-01.jpg" class="selected-img">
+    <div class="order">
+        <p class="order-txt">URBAN FPI BEIGE PANTS</p>
+        <p class="order-txt">Quantity: ${beigePantsQuantity}</p>
+        <p class="order-txt">Price: $${(beigePantsQuantity * 60.45).toFixed(2)}</p>
+    </div>`
+    cartBody.appendChild(cartItem)
+});
+
+
+beigeCargo.addEventListener('click', () => {
+    const cartItem = document.createElement('div');
+    cartItem.classList.add('carted');
+
+    const beigeCargoQuantity = document.querySelector('#quantity-12').value
+
+    cartItem.innerHTML = `
+    <img src="./assets/media/cargopants-02 Background Removed.png" class="selected-img">
+    <div class="order">
+        <p class="order-txt">URBAN FPI BEIGE CARGOPANTS</p>
+        <p class="order-txt">Quantity: ${beigeCargoQuantity}</p>
+        <p class="order-txt">Price: $${(beigeCargoQuantity * 60.25).toFixed(2)}</p>
+    </div>`
+    cartBody.appendChild(cartItem)
+});
+
+plaidShirt.addEventListener('click', () => {
+    const cartItem = document.createElement('div');
+    cartItem.classList.add('carted');
+
+    const plaidShirtQuantity = document.querySelector('#quantity-13').value
+
+    cartItem.innerHTML = `
+    <img src="./assets/media/plaid-shirt-03.jpg" class="selected-img">
+    <div class="order">
+        <p class="order-txt">URBAN FPI PLAID SHIRT</p>
+        <p class="order-txt">Quantity: ${plaidShirtQuantity}</p>
+        <p class="order-txt">Price: $${(plaidShirtQuantity * 75.85).toFixed(2)}</p>
+    </div>`
+    cartBody.appendChild(cartItem)
+});
+
+
+whiteSweater.addEventListener('click', () => {
+    const cartItem = document.createElement('div');
+    cartItem.classList.add('carted');
+
+    const whiteSweaterQuantity = document.querySelector('#quantity-14').value
+
+    cartItem.innerHTML = `
+    <img src="./assets/media/Cable Knit Crew Neck Sweater.jpg" class="selected-img">
+    <div class="order">
+        <p class="order-txt">URBAN FPI WHITE SWEATER</p>
+        <p class="order-txt">Quantity: ${whiteSweaterQuantity}</p>
+        <p class="order-txt">Price: $${(whiteSweaterQuantity * 65.80).toFixed(2)}</p>
+    </div>`
+    cartBody.appendChild(cartItem)
+});
+
+
+greenCargo.addEventListener('click', () => {
+    const cartItem = document.createElement('div');
+    cartItem.classList.add('carted');
+
+    const greenCargoQuantity = document.querySelector('#quantity-15').value
+
+    cartItem.innerHTML = `
+    <img src="./assets/media/green-cargo-03 Background Removed.png" class="selected-img">
+    <div class="order">
+        <p class="order-txt">URBAN FPI BAGGY GREEN CARGOPANTS</p>
+        <p class="order-txt">Quantity: ${greenCargoQuantity}</p>
+        <p class="order-txt">Price: $${(greenCargoQuantity * 60.85).toFixed(2)}</p>
+    </div>`
+    cartBody.appendChild(cartItem)
+});
+
+
+blackDress.addEventListener('click', () => {
+    const cartItem = document.createElement('div');
+    cartItem.classList.add('carted');
+
+    const blackDressQuantity = document.querySelector('#quantity-15').value
+
+    cartItem.innerHTML = `
+    <img src="./assets/media/black-dress-pants.jpg" class="selected-img">
+    <div class="order">
+        <p class="order-txt">URBAN FPI BLACK DRESS PANTS</p>
+        <p class="order-txt">Quantity: ${blackDressQuantity}</p>
+        <p class="order-txt">Price: $${(blackDressQuantity * 75.45).toFixed(2)}</p>
+    </div>`
+    cartBody.appendChild(cartItem)
+});
+
+
+
