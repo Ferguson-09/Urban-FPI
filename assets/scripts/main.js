@@ -246,7 +246,7 @@ plaidShirt.addEventListener('click', () => {
     <div class="order">
         <p class="order-txt">URBAN FPI PLAID SHIRT</p>
         <p class="order-txt">Quantity: ${plaidShirtQuantity}</p>
-        <p class="order-txt">Price: $${(plaidShirtQuantity * 75.85).toFixed(2)}</p>
+        <p class="order-txt">Price: $${(plaidShirtQuantity * 45.85).toFixed(2)}</p>
     </div>`
     cartBody.appendChild(cartItem)
 });
