@@ -161,6 +161,37 @@ label:hover {
     cursor: pointer;
 }
 
+footer {
+    margin-top: 60px;
+    background: rgba(0, 0, 0, 0.75);
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    font-size: 14px;
+    backdrop-filter: blur(6px);
+}
+
+footer hr {
+    border: none;
+    height: 1px;
+    margin-bottom: 15px;
+}
+
+.footer-icons {
+    margin: 15px 0;
+}
+
+.footer-icons a {
+    color: white;
+    font-size: 20px;
+    margin: 0 12px;
+}
+
+.footer-icons a:hover {
+    color: black;
+    background: white;
+}
+
 @media (max-width: 860px) {
     .selection {
         height: 30svh;
