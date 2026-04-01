@@ -17,3 +17,13 @@ This project was created as part of a web development assignment to practice lay
 - Background image and modern UI styling
 
 ---
+
+## 🛠️ Technologies Used
+
+- HTML – Structure of the website
+- CSS – Layout and styling
+- JavaScript – Basic interaction
+- Font Awesome – Social media icons
+- Google Maps Embed – Location display
+
+---
