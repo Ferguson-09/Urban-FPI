@@ -187,3 +187,18 @@ footer hr {
     color: black;
     background: white;
 }
+
+@media (max-width: 950px) {
+    .contact-info {
+        flex: 1;
+        margin-top: 20px;
+        width: 100%;
+        text-align: center;
+    }
+    .contact-container {
+        display: grid;
+    }
+    .contact-form {
+        max-width: 100%;
+    }
+}
