@@ -126,7 +126,7 @@ blueHoodie.addEventListener('click', () => {
     const blueHoodieQuantity = document.querySelector('#quantity-6').value
 
     cartItem.innerHTML = `
-    <img src="./assets/media/blue-hoodie Background Removed.png" class="selected-img">
+    <img src="./assets/media/blue-hoodie Background Removed.png" class="selected-img blue">
     <div class="order">
         <p class="order-txt">URBAN FPI BLUE BOXY HOODIE</p>
         <p class="order-txt">Quantity: ${blueHoodieQuantity}</p>

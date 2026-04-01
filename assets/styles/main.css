@@ -127,6 +127,11 @@ label:hover {
     margin-right: 10px;
 }
 
+.blue {
+    height: 170px;
+    margin-right: 10px;
+}
+
 .order {
     display: grid;
 }
@@ -154,4 +159,49 @@ label:hover {
 
 .cart-icon:hover {
     cursor: pointer;
+}
+
+@media (max-width: 860px) {
+    .selection {
+        height: 30svh;
+        margin: 30px;
+    }
+    #first, #second{
+        width: 50%;
+        height: 80vh;
+    }
+    .cart-icon{
+        height: 50px;
+        width: 50px;
+    }
+    .fa-cart-arrow-down {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 1040px) {
+    .selected-img {
+        height: 150px;
+        margin-right: 5px;
+    }
+    .order-txt{
+        font-size: 15px;
+    }
+    .bleh {
+        height: 110px;
+    }
+}
+
+@media (max-width: 680px) {
+    #first, #second{
+        width: 50%;
+        height: 70vh;
+    }
+    .cart-icon{
+        height: 40px;
+        width: 40px;
+    }
+    .fa-cart-arrow-down {
+        font-size: 20px;
+    }
 }
