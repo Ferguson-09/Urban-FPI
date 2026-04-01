@@ -27,3 +27,9 @@ This project was created as part of a web development assignment to practice lay
 - Google Maps Embed – Location display
 
 ---
+
+## 🎯 Project Goal
+
+The goal of this project is to build a clean, stylish, and functional fashion website interface while learning how to organize front-end code and create a professional looking web layout.
+
+---
