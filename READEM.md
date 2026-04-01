@@ -47,3 +47,21 @@ The goal of this project is to build a clean, stylish, and functional fashion we
 
 The contact page includes an embedded map pointing to **Winnipeg, Canada**.
 
+---
+
+## 📸 Future Improvements
+
+- Add product filtering and categories  
+- Improve mobile responsiveness  
+- Add shopping cart functionality  
+- Enhance animations and transitions  
+
+## 👩‍💻 Author
+
+**Frugson**
+**Prabhjot**
+**Ivan**
+
+---
+
+## 🚀 Live Demo
