@@ -8,7 +8,6 @@
     align-items: center;
 }
 
-<<<<<<< HEAD
 .container {
     position: relative;
 }
@@ -26,8 +25,6 @@
     cursor: pointer;
 }
 
-=======
->>>>>>> caa73cf (worked on main page)
 .head-logo{
     height: 100px;
 }
@@ -79,7 +76,6 @@ label:hover {
     justify-content: space-around;
 }
 
-<<<<<<< HEAD
 .overlay {
     top: 0;
     left: 0;
@@ -159,5 +155,3 @@ label:hover {
 .cart-icon:hover {
     cursor: pointer;
 }
-=======
->>>>>>> caa73cf (worked on main page)
