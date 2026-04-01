@@ -15,6 +15,7 @@ This project was created as part of a web development assignment to practice lay
 - Social media icons for brand connection
 - Organized HTML and CSS structure
 - Background image and modern UI styling
+- A functional cart section
 
 ---
 
@@ -31,7 +32,7 @@ This project was created as part of a web development assignment to practice lay
 ## 🖥️ Pages Included
 
 - **Home Page** – Introduction to the Urban FPI brand
-- **Product Page** – Displays fashion items and collections
+- **Product Page** – Displays fashion items, collections and a working cart
 - **Contact Page** – Allows users to send messages and view location
 
 ---
@@ -53,7 +54,6 @@ The contact page includes an embedded map pointing to **Winnipeg, Canada**.
 
 - Add product filtering and categories  
 - Improve mobile responsiveness  
-- Add shopping cart functionality  
 - Enhance animations and transitions  
 
 ## 👩‍💻 Author
@@ -65,5 +65,4 @@ The contact page includes an embedded map pointing to **Winnipeg, Canada**.
 ---
 
 ## 🚀 Live Demo
-Visit here:
-[https://ferguson-09.github.io/Urban-FPI/]
+Visit here: [Urban FPI](https://ferguson-09.github.io/Urban-FPI/)
